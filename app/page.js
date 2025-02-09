@@ -5,11 +5,14 @@ export default function RootPage() {
     <>
       <main class="bg-black h-screen">
         <h1 class="text-slate-50 text-5xl font-semibold text-center">CPRG 306: Web Development 2 - Assignments</h1>
-        <Link href="/week-2" class="text-slate-50 text-2xl text-center">
+        <Link href="/week-2" className="text-slate-50 text-2xl text-center">
           <p>Week 2 Assignment</p>
         </Link>
-        <Link href="/week-3" class="text-slate-50 text-2xl text-center">
+        <Link href="/week-3" className="text-slate-50 text-2xl text-center">
           <p>Week 3 Assignment</p>
+        </Link>
+        <Link href="/week-4" className="text-slate-50 text-2xl text-center">
+          <p>Week 4 Assignment</p>
         </Link>
       </main>
     </>
