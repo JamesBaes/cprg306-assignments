@@ -14,6 +14,9 @@ export default function RootPage() {
         <Link href="/week-4" className="text-slate-50 text-2xl text-center">
           <p>Week 4 Assignment</p>
         </Link>
+        <Link href="/week-5" className="text-slate-50 text-2xl text-center">
+          <p>Week 5 Assignment</p>
+        </Link>
       </main>
     </>
   );
