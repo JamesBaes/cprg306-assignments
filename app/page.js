@@ -3,8 +3,8 @@ import Link from "next/link";
 export default function RootPage() {
   return (
     <>
-      <main class="bg-black h-screen">
-        <h1 class="text-slate-50 text-5xl font-semibold text-center">CPRG 306: Web Development 2 - Assignments</h1>
+      <main className="bg-black h-screen">
+        <h1 className="text-slate-50 text-5xl font-semibold text-center">CPRG 306: Web Development 2 - Assignments</h1>
         <Link href="/week-2" className="text-slate-50 text-2xl text-center">
           <p>Week 2 Assignment</p>
         </Link>
@@ -16,6 +16,9 @@ export default function RootPage() {
         </Link>
         <Link href="/week-5" className="text-slate-50 text-2xl text-center">
           <p>Week 5 Assignment</p>
+        </Link>
+        <Link href="/week-6" className="text-slate-50 text-2xl text-center">
+          <p>Week 6 Assignment</p>
         </Link>
       </main>
     </>
