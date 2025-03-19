@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import Item from "./item.js";
 
-export default function ItemList({ items }) {
+export default function ItemList({ items, onItemSelect }) {
   const [sortBy, setSortBy] = useState(items);
   const [currentSortBy, setCurrentSortBy] = useState("");
 
@@ -46,7 +46,7 @@ export default function ItemList({ items }) {
         {itemsToDisplay.map((item) => (
           <ul key={item.id}>
             <li>
-              <Item name={item.name} quantity={item.quantity} category={item.category}/>
+              <Item onSelect={() => onItemSelect(item.name)} name={item.name} quantity={item.quantity} category={item.category}/>
             </li>
           </ul>
         ))}
