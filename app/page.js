@@ -23,6 +23,12 @@ export default function RootPage() {
         <Link href="/week-7" className="text-slate-50 text-2xl text-center">
           <p>Week 7 Assignment</p>
         </Link>
+        <Link href="/week-8" className="text-slate-50 text-2xl text-center">
+          <p>Week 8 Assignment</p>
+        </Link>
+        <Link href="/week-9" className="text-slate-50 text-2xl text-center">
+          <p>Week 9 Assignment</p>
+        </Link>
       </main>
     </>
   );
